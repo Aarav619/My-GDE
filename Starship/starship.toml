@@ -10,6 +10,7 @@ format = "took [$duration]($style) "
 
 [character]
 success_symbol = "[](bold green)" 
+error_symbol = "[](bold pink)" 
 
 [directory]
 truncation_length = 5
