@@ -1,2 +1,2 @@
 # My-Zsh
-Cooked to preserve plugins, starship.toml and .zshrc
+Cooked to preserve zsh-plugins, starship.toml and .zshrc
