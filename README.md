@@ -1,2 +1,2 @@
 # My-Zsh
-Backup of .zshrc /oh-my-zsh/Starship-config
+Cooked to preserve plugins, starship.toml and .zshrc
