@@ -1,9 +1,9 @@
 #Restoration of my GDE
 
 #Full Restore
-# dconf load / < full-backup
+dconf load / < full-backup
 
-# Gnome only settings Restore
+Gnome only settings Restore
 # dconf load /org/gnome < gnome-backup
 
 # echo -e "\nCompleted Gnome-Settings restoration..."
@@ -14,21 +14,21 @@
 # sudo tar --extract --file custom-themes.tar.gz -C /usr/share/ --strip-components=1 --overwrite
 
 #Restore .icons and .themes for "/" directory
-# cp -r .icons /$HOME/
+cp -r .icons /$HOME/
 
-# cp -r .themes /$HOME/
+cp -r .themes /$HOME/
 
-# echo -e "\nCompleted icons and theme restoration..."
+echo -e "\nCompleted icons and theme restoration..."
 
 #Restore Gnome-Extensions
-# cp -r extensions  /$HOME/.local/share/gnome-shell/
+cp -r extensions  /$HOME/.local/share/gnome-shell/
 
-# echo -e "\nCompleted Gnome-Extensions restoration..."
+echo -e "\nCompleted Gnome-Extensions restoration..."
 
 #Restore .zshrc
-# cp -r .zshrc /$HOME/
+cp -r .zshrc /$HOME/
 
-# echo -e "\nCompleted .zshrc restoration..."
+echo -e "\nCompleted .zshrc restoration..."
 
 #Restore Starship
 cp -r starship /$HOME/.config
