@@ -24,3 +24,8 @@
 # cp -r extensions  /home/$(logname)/.local/share/gnome-shell/
 
 # echo -e "\nCompleted Gnome-Extensions restoration..."
+
+#Restore .zshrc
+# cp -r .zshrc /home/$(logname)/
+
+# echo -e "\nCompleted .zshrc restoration..."
