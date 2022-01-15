@@ -1,4 +1,4 @@
-#Restore
+#Restoration of my GDE
 
 #Full Restore
 # dconf load / < full-backup
