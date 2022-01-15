@@ -9,7 +9,7 @@ mkdir -p ~/Documents/Gnome-Backup/
 #Backup entire settings
 dconf dump / > /$HOME/Documents/Gnome-Backup/full-backup
 
-echo "\nCompleted Gnome-Settings backup"
+echo -e "\nCompleted Gnome-Settings backup"
 
 # Backup icons and themes
 
