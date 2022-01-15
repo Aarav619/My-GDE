@@ -20,35 +20,35 @@ dconf dump / > full-backup
 
 # mkdir -p ~/Documents/Gnome-Backup/
 
-# mv *.tar.gz /home/$(logname)/Documents/Gnome-Backup
+# mv *.tar.gz /$HOME/Documents/Gnome-Backup
 
 # Backup of ~/.icons and ~/.themes folders. 
 
 cd /home/$(logname)
 
-cp -r .icons /home/$(logname)/Documents/Gnome-Backup
+cp -r .icons /$HOME/Documents/Gnome-Backup
 
-cp -r .themes /home/$(logname)/Documents/Gnome-Backup
+cp -r .themes /$HOME/Documents/Gnome-Backup
 
 echo -e "\nCompleted icons and theme backup..."
 
 #Backup Gnome Extensions
 mkdir -p ~/Documents/Gnome-Backup/
 
-cd /home/$(logname)/.local/share/gnome-shell/
+cd /$HOME/.local/share/gnome-shell/
 
-cp -r extensions /home/$(logname)/Documents/Gnome-Backup
+cp -r extensions /$HOME/Documents/Gnome-Backup
 
 echo -e "\nCompleted Shell-extensions backup..."
 
 #Backup .zshrc
 mkdir -p ~/Documents/Gnome-Backup/
 
-cp -r /home/$(logname)/.zshrc /home/$(logname)/Documents/Gnome-Backup
+cp -r /$HOME/.zshrc /$HOME/Documents/Gnome-Backup
 
 echo -e "\nCompleted .zshrc backup..."
 
 #Backup starship config
-cp -r /home/$(logname)/.config/starship.toml /home/$(logname)/Documents/Gnome-Backup
+cp -r /$HOME/.config/starship.toml /$HOME/Documents/Gnome-Backup
 
 echo -e "\nCompleted starship backup..."
