@@ -1,4 +1,4 @@
 backup:
-		./backup.sh
+		cd scripts && ./backup.sh
 restore:
-		./restore.sh
+		cd scripts && ./restore.sh
