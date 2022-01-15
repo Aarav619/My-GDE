@@ -44,3 +44,8 @@ mkdir -p ~/Documents/Gnome-Backup/
 cp -r /home/$(logname)/.zshrc /home/$(logname)/Documents/Gnome-Backup
 
 echo -e "\nCompleted .zshrc backup..."
+
+#Backup starship config
+cp -r /home/$(logname)/.config/starship.toml /home/$(logname)/Documents/Gnome-Backup
+
+echo -e "\nCompleted starship backup..."
