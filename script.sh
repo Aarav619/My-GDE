@@ -21,13 +21,13 @@
 
 # Backup of ~/.icons and ~/.themes folders. 
 
-cd /home/$(logname)
+# cd /home/$(logname)
 
-cp -r .icons /home/$(logname)/Documents/Gnome-Backup
+# cp -r .icons /home/$(logname)/Documents/Gnome-Backup
 
-cp -r .themes /home/$(logname)/Documents/Gnome-Backup
+# cp -r .themes /home/$(logname)/Documents/Gnome-Backup
 
-echo -e "\nCompleted icons and theme backup..."
+# echo -e "\nCompleted icons and theme backup..."
 
 #Backup Gnome Extensions
 # mkdir -p ~/Documents/Gnome-Backup/
