@@ -1,0 +1,13 @@
+alg-min-cala-config
+archlinux-appstream-data-pamac
+chrome-gnome-shell
+gnome-terminal-transparency
+google-chrome
+nerd-fonts-fira-code
+pfetch
+rtl8821au-dkms-git
+spotify
+ttf-font-logos
+visual-studio-code-bin
+yay
+zplug
