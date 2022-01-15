@@ -7,7 +7,7 @@ mkdir -p ~/Documents/Gnome-Backup/
 # dconf dump /org/gnome > gnome-backup
 
 #Backup entire settings
-dconf dump / > full-backup
+dconf dump / > /$HOME/Documents/Gnome-Backup/full-backup
 
 echo "\nCompleted Gnome-Settings backup"
 
