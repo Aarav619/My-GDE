@@ -31,4 +31,4 @@
 # echo -e "\nCompleted .zshrc restoration..."
 
 #Restore Starship
-cp -r starship /home/$(logname)/.config/
+cp -r starship.toml /home/$(logname)/.config/
