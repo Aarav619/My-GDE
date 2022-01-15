@@ -14,21 +14,21 @@
 # sudo tar --extract --file custom-themes.tar.gz -C /usr/share/ --strip-components=1 --overwrite
 
 #Restore .icons and .themes for "/" directory
-# cp -r .icons /home/$(logname)/
+# cp -r .icons /$HOME/
 
-# cp -r .themes /home/$(logname)/
+# cp -r .themes /$HOME/
 
 # echo -e "\nCompleted icons and theme restoration..."
 
 #Restore Gnome-Extensions
-# cp -r extensions  /home/$(logname)/.local/share/gnome-shell/
+# cp -r extensions  /$HOME/.local/share/gnome-shell/
 
 # echo -e "\nCompleted Gnome-Extensions restoration..."
 
 #Restore .zshrc
-# cp -r .zshrc /home/$(logname)/
+# cp -r .zshrc /$HOME/
 
 # echo -e "\nCompleted .zshrc restoration..."
 
 #Restore Starship
-cp -r starship.toml /home/$(logname)/.config/
+cp -r starship /$HOME/.config
