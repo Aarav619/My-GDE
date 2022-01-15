@@ -32,3 +32,5 @@ echo -e "\nCompleted .zshrc restoration..."
 
 #Restore Starship
 cp -r ../starship /$HOME/.config
+
+echo -e "\nCompleted starship restoration..."
