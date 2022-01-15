@@ -3,7 +3,7 @@
 #Full Restore
 dconf load / < full-backup
 
-Gnome only settings Restore
+# Gnome only settings Restore
 # dconf load /org/gnome < gnome-backup
 
 # echo -e "\nCompleted Gnome-Settings restoration..."
