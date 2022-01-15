@@ -38,3 +38,8 @@
 
 # echo -e "\nCompleted Shell-extensions backup..."
 
+#Backup .zshrc
+mkdir -p ~/Documents/Gnome-Backup/
+
+cp -r /home/$(logname)/.zshrc /home/$(logname)/Documents/Gnome-Backup
+
