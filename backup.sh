@@ -35,7 +35,7 @@ echo -e "\nCompleted icons and theme backup..."
 #Backup Gnome Extensions
 cd /$HOME/.local/share/gnome-shell/
 
-cp -r extensions /$HOME/Documents/Gnome-Backup
+sudo cp -r extensions /$HOME/Documents/Gnome-Backup
 
 echo -e "\nCompleted Shell-extensions backup..."
 
