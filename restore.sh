@@ -29,3 +29,6 @@
 # cp -r .zshrc /home/$(logname)/
 
 # echo -e "\nCompleted .zshrc restoration..."
+
+#Restore Starship
+cp -r starship /home/$(logname)/.config/
