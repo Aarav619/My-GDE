@@ -1,10 +1,13 @@
 #Backup of Gnome-Settings/icons/themes/Extension
 
+#Creating a universal backup folder
+mkdir -p ~/Documents/Gnome-Backup/
+
 # Backup Gnome only settings
 # dconf dump /org/gnome > gnome-backup
 
 #Backup entire settings
-# dconf dump / > full-backup
+dconf dump / > full-backup
 
 # Backup icons and themes
 
@@ -21,22 +24,22 @@
 
 # Backup of ~/.icons and ~/.themes folders. 
 
-# cd /home/$(logname)
+cd /home/$(logname)
 
-# cp -r .icons /home/$(logname)/Documents/Gnome-Backup
+cp -r .icons /home/$(logname)/Documents/Gnome-Backup
 
-# cp -r .themes /home/$(logname)/Documents/Gnome-Backup
+cp -r .themes /home/$(logname)/Documents/Gnome-Backup
 
-# echo -e "\nCompleted icons and theme backup..."
+echo -e "\nCompleted icons and theme backup..."
 
 #Backup Gnome Extensions
-# mkdir -p ~/Documents/Gnome-Backup/
+mkdir -p ~/Documents/Gnome-Backup/
 
-# cd /home/$(logname)/.local/share/gnome-shell/
+cd /home/$(logname)/.local/share/gnome-shell/
 
-# cp -r extensions /home/$(logname)/Documents/Gnome-Backup
+cp -r extensions /home/$(logname)/Documents/Gnome-Backup
 
-# echo -e "\nCompleted Shell-extensions backup..."
+echo -e "\nCompleted Shell-extensions backup..."
 
 #Backup .zshrc
 mkdir -p ~/Documents/Gnome-Backup/
