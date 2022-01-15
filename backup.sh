@@ -24,7 +24,7 @@ echo -e "\nCompleted Gnome-Settings backup"
 
 # Backup of ~/.icons and ~/.themes folders. 
 
-cd /home/$(logname)
+cd /$HOME
 
 cp -r .icons /$HOME/Documents/Gnome-Backup
 
