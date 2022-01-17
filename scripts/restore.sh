@@ -50,3 +50,5 @@ PIC=$(ls $DIR/* | shuf -n1)
 gsettings set org.gnome.desktop.background picture-uri "file://$PIC"
 
 echo -e "\n Applied wallpaper from $DIR..."
+
+echo -e "\n Restoring done... Reboot system to let changes take effect. [ *_* ]"
