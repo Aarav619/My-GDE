@@ -1,5 +1,5 @@
 backup:
-		cd scripts && ./backup.sh
+		cd scripts && ./backup.sh && sudo ./sync.sh
 
 restore:
 		cd scripts && ./restore.sh
