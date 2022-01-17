@@ -1,5 +1,6 @@
 #Backup of Gnome-Settings/icons/themes/Extension
-backup_path=$HOME/Documents/Gnome-Backup
+export backup_path=$HOME/Documents/Gnome-Backup
+
 #Creating a universal backup folder
 mkdir -p $backup_path
 
