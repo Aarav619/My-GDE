@@ -1,13 +1,13 @@
 #Backup of Gnome-Settings/icons/themes/Extension
 backup_path='/$HOME/Documents/Gnome-Backup/'
 #Creating a universal backup folder
-mkdir -p ~/Documents/Gnome-Backup/
+mkdir -p $backup_path
 
 # Backup Gnome only settings
 # dconf dump /org/gnome > gnome-backup
 
 #Backup entire settings
-dconf dump / > /$HOME/Documents/Gnome-Backup/full-backup
+dconf dump / > $backup_path
 
 echo -e "\nCompleted Gnome-Settings backup"
 
@@ -20,31 +20,31 @@ echo -e "\nCompleted Gnome-Settings backup"
 
 # tar -cvpf custom-themes.tar.gz themes
 
-# mv *.tar.gz /$HOME/Documents/Gnome-Backup
+# mv *.tar.gz $backup_path
 
 # Backup of ~/.icons and ~/.themes folders. 
 
 cd /$HOME
 
-cp -r .icons /$HOME/Documents/Gnome-Backup
+cp -r .icons $backup_path
 
-cp -r .themes /$HOME/Documents/Gnome-Backup
+cp -r .themes $backup_path
 
 echo -e "\nCompleted icons and theme backup..."
 
 #Backup Gnome Extensions
 cd /$HOME/.local/share/gnome-shell/
 
-sudo cp -r extensions /$HOME/Documents/Gnome-Backup
+sudo cp -r extensions $backup_path
 
 echo -e "\nCompleted Shell-extensions backup..."
 
 #Backup .zshrc
-cp -r /$HOME/.zshrc /$HOME/Documents/Gnome-Backup
+cp -r /$HOME/.zshrc $backup_path
 
 echo -e "\nCompleted .zshrc backup..."
 
 #Backup starship config
-cp -r /$HOME/.config/starship.toml /$HOME/Documents/Gnome-Backup
+cp -r /$HOME/.config/starship.toml $backup_path
 
 echo -e "\nCompleted starship backup..."
