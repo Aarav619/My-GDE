@@ -13,4 +13,4 @@ sudo cp -r $backup_path/. $restore_path
 #changing ownership
 sudo chown -R $USER: $HOME
 
-echo -e "\n Syncing done... Restart to see changes in effect!"
+echo -e "\n Syncing done... Don't panic now... Take a sigh of relief :)"
