@@ -39,3 +39,10 @@ echo -e "\nCompleted starship restoration..."
 mkdir -p $HOME/Pictures/Wallpapers
 
 cp -r ../Wallpapers/. $HOME/Pictures/Wallpapers
+
+#Setting wallpaper from wallpapers directory
+DIR="$HOME/Pictures/Wallpapers"
+
+#Shuffle wallpapers every time
+PIC=$(ls $DIR/* | shuf -n1)
+gsettings set org.gnome.desktop.background picture-uri "file://$PIC"
