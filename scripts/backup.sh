@@ -1,5 +1,5 @@
 #Backup of Gnome-Settings/icons/themes/Extension
-backup_path='/$HOME/Documents/Gnome-Backup/'
+backup_path=$HOME/Documents/Gnome-Backup
 #Creating a universal backup folder
 mkdir -p $backup_path
 
@@ -7,7 +7,7 @@ mkdir -p $backup_path
 # dconf dump /org/gnome > gnome-backup
 
 #Backup entire settings
-dconf dump / > $backup_path
+dconf dump / > $backup_path/full-backup
 
 echo -e "\nCompleted Gnome-Settings backup"
 
