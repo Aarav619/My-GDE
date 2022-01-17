@@ -49,3 +49,8 @@ echo -e "\nCompleted .zshrc backup..."
 cp -r /$HOME/.config/starship.toml $backup_path
 
 echo -e "\nCompleted starship backup..."
+
+#Backup Wallpaper directory
+cp -r $HOME/Pictures/Wallpapers $backup_path
+
+echo -e "\nCompleted wallpapers backup..."
