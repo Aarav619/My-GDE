@@ -40,6 +40,8 @@ mkdir -p $HOME/Pictures/Wallpapers
 
 cp -r ../Wallpapers/. $HOME/Pictures/Wallpapers
 
+echo -e "\Restored wallpapers directory..."
+
 #Setting wallpaper from wallpapers directory
 DIR="$HOME/Pictures/Wallpapers"
 
