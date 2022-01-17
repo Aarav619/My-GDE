@@ -3,7 +3,7 @@
 #sourcing bash.sh to use exported path variable
 source <(grep '^export .*=' backup.sh)
 
-restore_path=~/Drive-A/CodingStuff/Git/Github/My-Zsh-Backup/My-Zsh
+restore_path=~/DRIVE-A/CodingStuff/Git/Github/My-Zsh-Backup/My-Zsh
 
 mkdir -p $restore_path
 
