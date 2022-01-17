@@ -34,3 +34,8 @@ echo -e "\nCompleted .zshrc restoration..."
 cp -r ../starship /$HOME/.config
 
 echo -e "\nCompleted starship restoration..."
+
+#Restore Wallpapers
+mkdir -p $HOME/Pictures/Wallpapers
+
+cp -r ../Wallpapers/. $HOME/Pictures/Wallpapers
