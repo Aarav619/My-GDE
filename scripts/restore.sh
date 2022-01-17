@@ -48,3 +48,5 @@ DIR="$HOME/Pictures/Wallpapers"
 #Shuffle wallpapers every time
 PIC=$(ls $DIR/* | shuf -n1)
 gsettings set org.gnome.desktop.background picture-uri "file://$PIC"
+
+echo -e "\n Applied wallpaper from $DIR..."
