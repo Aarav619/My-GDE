@@ -413,7 +413,7 @@ scrollback-lines=100000
 scrollbar-policy='never'
 use-custom-command=false
 use-system-font=false
-use-theme-colors=true
+use-theme-colors=true@
 use-transparent-background=false
 visible-name='Default'
 
