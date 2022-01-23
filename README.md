@@ -1,5 +1,7 @@
 ![Screenshot-1](screenshots/ss1.png)
 
+<hr>
+
 <p align="center">
 
   Includes configured theme, icons, .zshrc and starship.toml
