@@ -17,7 +17,7 @@ My Gnome Desktop with configured theme, icons, .zshrc, and starship.toml
 
 ## Installation
 
-Install my-project with npm
+Install My-Setup with Git
 
 ```bash
   git clone https://github.com/Aarav619/My-GDE.git
@@ -43,4 +43,4 @@ Install my-project with npm
 
 ## Suggestions
 
-All suggestions are most welcome. :grinning:
+Suggestions are always welcome. :grinning:
