@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  Includes configured theme, icons, .zshrc, and starship.toml
+  Includes configured theme, icons, .zshrc and starship.toml
 
 </p>
 
