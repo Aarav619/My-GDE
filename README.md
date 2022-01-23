@@ -1,4 +1,6 @@
-![Screenshot-1](screenshots/ss1.png)
+<p align="center">
+  <img src="screenshots/ss1.png">
+</p>
 
 <hr>
 
