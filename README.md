@@ -4,7 +4,7 @@
 
 <hr>
 
-<p style="text-align: center;"> Includes configured theme, icons, .zshrc and starship.toml </p>
+<div align="center"> Includes configured theme, icons, .zshrc and starship.toml.</div>
 
 
 ## Acknowledgements
