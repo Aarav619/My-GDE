@@ -1,9 +1,10 @@
-# My-Gnome-Desktop-Environment
-
-My Gnome Desktop with configured theme, icons, .zshrc, and starship.toml
-
-
 ![Screenshot-1](screenshots/ss1.png)
+
+<p align="center">
+
+  Inlucdes configured theme, icons, .zshrc, and starship.toml
+
+</p>
 
 
 ## Acknowledgements
