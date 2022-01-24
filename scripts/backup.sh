@@ -54,3 +54,13 @@ echo -e "\nCompleted starship backup..."
 cp -r $HOME/Pictures/Wallpapers $backup_path
 
 echo -e "\nCompleted wallpapers backup..."
+
+#Backup .vimrc
+cp -r $HOME/.vimrc $backup_path
+
+echo -e "\nCompleted .vimrc backup..."
+
+#Backup neofetch config
+cp -r $HOME/.config/neofetch/ $backup_path
+
+echo -e "\nCompleted neofetch config backup..."
