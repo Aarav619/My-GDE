@@ -7,8 +7,8 @@ fi
 export TERM="alacritty"                                 # getting proper colors
 export HISTCONTROL='ignoreboth:erasedups'               # to remove duplicate entries & ignore spaces
 export ALTERNATE_EDITOR="code"                          # for Visual Studio Code
-export EDITOR="micro"              		                  # for micro terminal editor
-export ZSH='$HOME/.oh-my-zsh'	                          # Path to oh-my-zsh installation.
+export EDITOR="micro"              		        # for micro terminal editor
+export ZSH="$HOME/.oh-my-zsh"	                        # Path to oh-my-zsh installation.
 export GRIM_DEFAULT_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [grim]
 export XDG_PICTURES_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [sys]
 
