@@ -4,13 +4,13 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 fi
 
 ### EXPORT
-export TERM="alacritty"                           # getting proper colors
-export HISTCONTROL='ignoreboth:erasedups'         # to remove duplicate entries & ignore spaces
-export ALTERNATE_EDITOR="code"                    # for Visual Studio Code
-export EDITOR="micro"              		          # for micro terminal editor
-export ZSH="/home/aaravconsole/.oh-my-zsh"	      # Path to oh-my-zsh installation.
-export GRIM_DEFAULT_DIR='$HOME/Pictures/Screenshots/' # Default Screenshots path [grim]
-export XDG_PICTURES_DIR='$HOME/Pictures/Screenshots/' # Default Screenshots path [sys]
+export TERM="alacritty"                                 # getting proper colors
+export HISTCONTROL='ignoreboth:erasedups'               # to remove duplicate entries & ignore spaces
+export ALTERNATE_EDITOR="code"                          # for Visual Studio Code
+export EDITOR="micro"              		                  # for micro terminal editor
+export ZSH='$HOME/.oh-my-zsh'	                          # Path to oh-my-zsh installation.
+export GRIM_DEFAULT_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [grim]
+export XDG_PICTURES_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [sys]
 
 
 ### Init Starship
@@ -88,21 +88,21 @@ alias md='mkdir'
 
 	
 # ls - list directory
-alias l.='ls -l -d .* --color=always'                               # list dot files
+alias l.='ls -l -d .* --color=always'                           # list dot files
 alias ls='ls -l --color=always --group-directories-first'    		# default listing with colors
-alias la='ls -l -a --color=always' --group-directories-first		# list all files and dirs 	    	
+alias la='ls -l -a --color=always --group-directories-first'		# list all files and dirs 	    	
 
 
 # pacman and yay
 #--confirm turn off interactive prompt (yes/no)
-alias pi='sudo pacman -S'							     # install a package with [name]
-alias yi='yay -S'									     # install a package with [name] (aur)
-alias rem='sudo pacman -R'							     # remove a package with [name]
+alias pi='sudo pacman -S'							                   # install a package with [name]
+alias yi='yay -S'									                       # install a package with [name] (aur)
+alias rem='sudo pacman -R'							                 # remove a package with [name]
 alias pacup='sudo pacman -Syyu'                          # update only standard pkgs
 alias aurup='yay -Sua --noconfirm'                       # update only AUR pkgs (yay)
 alias update='yay -Syu --noconfirm'                      # update standard pkgs and AUR pkgs (yay)
 alias unlock='sudo rm /var/lib/pacman/db.lck'            # remove pacman lock
-alias clean='sudo pacman -R $(pacman -Qdtq)'      		 # clean dependencies
+alias clean='sudo pacman -R $(pacman -Qdtq)'      		   # clean dependencies
 alias cleanup='sudo pacman -Qdtq | sudo pacman -Rs -'    # remove orphaned packages
 
 
@@ -155,7 +155,7 @@ alias ws='nmcli device status'        # current network status
 ### RANDOM COLOR SCRIPT ###
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
-colorscript random		# adds a right amount of bling to your console :)
+colorscript random		                 # adds a right amount of bling to your console :)
 
 
 ### Starship config ( for gnome )
