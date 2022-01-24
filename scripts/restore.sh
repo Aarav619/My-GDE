@@ -35,6 +35,16 @@ cp -r ../starship /$HOME/.config
 
 echo -e "\nCompleted starship restoration..."
 
+#Restore .vimrc
+cp -r ../.vimrc /$HOME/
+
+echo -e "\Restored wallpapers directory..."
+
+#Restore neofetch config
+cp -r ../neofetch /$HOME/.config/neofetch
+
+echo -e "\Restored wallpapers directory..."
+
 #Restore Wallpapers
 mkdir -p $HOME/Pictures/Wallpapers
 
