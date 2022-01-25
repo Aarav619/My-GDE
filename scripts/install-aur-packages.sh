@@ -3,7 +3,7 @@
 
 echo -e "\n======> Installing Yay\n"
 
-cd /opt-repos
+cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
 sudo chown -R $USER:$USER ./yay-git
 cd yay-git
