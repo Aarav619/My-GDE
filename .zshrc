@@ -1,16 +1,8 @@
-# Exec Sway
-if [ "$(tty)" = "/dev/tty1" ]; then
-  exec sway
-fi
-
 ### EXPORT
-export TERM="alacritty"                                 # getting proper colors
 export HISTCONTROL='ignoreboth:erasedups'               # to remove duplicate entries & ignore spaces
 export ALTERNATE_EDITOR="code"                          # for Visual Studio Code
-export EDITOR="micro"              		        # for micro terminal editor
-export ZSH="$HOME/.oh-my-zsh"	                        # Path to oh-my-zsh installation.
-export GRIM_DEFAULT_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [grim]
-export XDG_PICTURES_DIR='$HOME/Pictures/Screenshots/'   # Default Screenshots path [sys]
+export EDITOR="micro"              		                  # for micro terminal editor
+export ZSH="$HOME/.oh-my-zsh"	                          # Path to oh-my-zsh installation.
 
 
 ### Init Starship
@@ -75,12 +67,6 @@ up () {
     echo "Couldn't go up $limit dirs.";
   fi
 }
-
-
-# To edit configs files
-alias zshc="micro ~/.zshrc"
-alias swayc="micro ~/.config/sway/config"
-alias wayc="micro ~/.config/waybar/config"
 
 
 # Make a directory
@@ -149,13 +135,6 @@ alias gs='git status'
 alias wc='nmcli device wifi connect'  # connect to wifi with ssid
 alias wl='nmcli device wifi list'     # list wifi devices
 alias ws='nmcli device status'        # current network status
-
-
-
-### RANDOM COLOR SCRIPT ###
-# Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
-# Or install it from the Arch User Repository: shell-color-scripts
-colorscript random		                 # adds a right amount of bling to your console :)
 
 
 ### Starship config ( for gnome )
