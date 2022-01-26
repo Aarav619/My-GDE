@@ -160,9 +160,9 @@ colorscript random		                 # adds a right amount of bling to your cons
 
 ### Starship config ( for gnome )
 
-#Set terminal title
-# function set_win_title(){
-#     echo -ne "\033]0; aarav-console@1aM \007"
+Set terminal title
+function set_win_title(){
+    echo -ne "\033]0; 1aM@arch \007"
        
-# }
-# precmd_functions+=(set_win_title) 
+}
+precmd_functions+=(set_win_title) 
